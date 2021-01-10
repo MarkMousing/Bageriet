@@ -1,0 +1,386 @@
+//Costum fonts
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url(/assets/fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url(/assets/fonts/Lobster1.4.otf);
+}
+
+* {
+  font-family: OpenSans-Light;
+}
+//Min navigation
+.mynav {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  background: none !important;
+  border: 0;
+  border-radius: 0;
+  font-family: OpenSans-Light;
+  padding-left: 0;
+}
+
+.navbar-nav a {
+  justify-content: center !important;
+  color: white !important;
+  /*padding-left: 25px;*/
+  font-size: 0.8em;
+  padding-top: 25px;
+}
+
+.navbar-brand {
+  color: white !important;
+  padding-top: 0 !important;
+  font-size: 2.5em !important;
+  font-family: Lobster;
+
+}
+
+//Min Slider
+.mycarousel {
+  /*position: absolute;*/
+  top: 0;
+  height: 700px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -440px;
+  font-family: Lobster;
+  font-size: 4em;
+}
+
+//Index.php
+
+.article1 {
+  /*border: 1px solid black;*/
+
+  h3 {
+    font-family: Lobster;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 120px;
+  }
+}
+
+.col-sm-6 {
+  /*border: 1px solid black;*/
+
+  padding-top: 25px;
+
+  p {
+    font-family: OpenSans-Light;
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+.frontrow {
+  justify-content: center !important;
+  padding-top: 75px;
+
+  .card {
+    border: none;
+    /*margin-left: 35px;*/
+  }
+
+  img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .card-text {
+    text-align: center;
+    font-size: 1em !important;
+    padding-top: 20px;
+  }
+}
+
+.frontrow2 {
+  padding-top: 100px;
+  height: auto;
+
+  .imgnews {
+    height: 40vh;
+  }
+}
+
+.frontproductrow {
+  height: 80vh;
+}
+
+//kontakt.php
+.contactinfo {
+  justify-content: center !important;
+
+  h3 {
+    font-family: Lobster;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10vh;
+  }
+
+  p {
+    font-family: OpenSans-Light;
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+.contact {
+
+  justify-content: center !important;
+  padding-top: 3vh;
+  padding-bottom: 20vh;
+  border: none;
+
+  .contactcards1 {
+    background-color: #00405c;
+  }
+
+  .contactcard2 {
+
+    .imgmap {
+      height: 100%;
+      padding: 3%;
+    }
+  }
+}
+
+//Kontakt formular
+
+.form-group {
+    position: relative;
+
+  }
+
+  .gt-input {
+    width: 100%;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+
+    :focus {
+      outline: none;
+    }
+}
+
+.gt-text {
+    padding: 10px 20px;
+    height: 150px;
+    width: 100%;
+    font-size: OpenSans-Light;
+    font-size: 20px;
+
+  }
+
+  label {
+    position: absolute;
+    font-size: 18px;
+    color: #aaa;
+    transition: all .4s;
+    top: 24px;
+    transform: translateY(-50%);
+    margin-left: 24px;
+    cursor: text;
+  }
+
+  .mybtn {
+    width: 10vh;
+    background-color: white;
+    transition: .4s;
+    float: right;
+    cursor: pointer;
+    margin-top: -1vh;
+  }
+
+  .mybtn:hover {
+    background-color: #0079b5;
+    color: white;
+  }
+
+  .form-status {
+    padding: 8px;
+    text-align: center;
+    color: white;
+  }
+
+  .move-up {
+    margin-top: -22px;
+    margin-left: 0;
+    font-size: 14px;
+    background-color: #ff0000;
+    border-radius: 8px 0px;
+    color: white;
+    padding: 4px 8px;
+    min-width: 100px;
+  }
+
+//produckter.php
+.myproducts {
+  height: 100vh;
+}
+
+//Min footer
+.footer {
+  background-color: #3a3a3b;
+  height: 20vh;
+
+  h3 {
+    text-align: center;
+    color: white !important;
+    font-size: 2.5em !important;
+    font-family: Lobster !important;
+  }
+
+  p {
+    font-family: OpenSans-Light;
+    padding-top: 30px;
+    font-size: 1em;
+    text-align: center;
+    color: gray;
+  }
+}
+
+.copyright {
+  background-color: black;
+  height: 5vh;
+
+  p {
+    font-family: OpenSans-Light;
+    font-size: 1em;
+    text-align: center;
+    color: gray;
+    padding-top: 8px;
+  }
+}
+
+//Alt til fetch!
+
+#groups {
+    width: 250px;
+    box-shadow: 3px 5px gray;
+}
+
+#groups li {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#list- {
+    border: 1px solid #000;
+    box-sizing: content-box;
+    width: 20vh;
+    height: 20vh;
+}
+
+article {
+
+    border: 1px solid purple;
+}
+
+article li {
+    text-decoration: underline;
+}
+
+/*img {
+    width: 10%;
+    height: 10%;
+}*/
+
+//Mit Login
+.loginrow {
+  justify-content: center !important;
+  height: 100vh;
+  width: 100vh;
+  padding-top: 10vh;
+
+.login {
+  border: 1px solid black;
+  height: 40vh;
+  width: 40vh;
+  padding-top: 10vh;
+  background-color: #00405c;
+
+  form {
+    padding-top: 10vh;
+    width: 100vh;
+
+    }
+
+    input {
+      width: 100%;
+      height: 40px;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    button {
+      float: right;
+      padding: 10px 25px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 8px;
+      color: white;
+      background-color: blue;
+      transition: .25s;
+
+      &:hover {
+        background-color: darkblue;
+      }
+    }
+}
+}
+
+.signuprow {
+  justify-content: center !important;
+  height: 100vh;
+  width: 100vh;
+  padding-top: 10vh;
+
+.signup {
+  border: 1px solid black;
+  height: 40vh;
+  width: 40vh;
+  padding-top: 10vh;
+  background-color: #00405c;
+
+  form {
+    padding-top: 10vh;
+    width: 100vh;
+    }
+
+    input {
+      width: 100%;
+      height: 40px;
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+
+    button {
+      float: right;
+      padding: 10px 25px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 8px;
+      color: white;
+      background-color: blue;
+      transition: .25s;
+
+      &:hover {
+        background-color: darkblue;
+      }
+    }
+
+}
+}
